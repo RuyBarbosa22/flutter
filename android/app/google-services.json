@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "101564447849",
+    "project_id": "meurango-5e50e",
+    "storage_bucket": "meurango-5e50e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101564447849:android:8b47799d49263af046f6f8",
+        "android_client_info": {
+          "package_name": "com.ruybarbosa.meurango"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDj1duHCP6p0nYnOfX9e7qbxIQicCbo7vU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

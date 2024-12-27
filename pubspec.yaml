@@ -1,0 +1,47 @@
+name: meurango
+description: "meu primeiro projeto em flutter"
+publish_to: 'none'  # Remova essa linha se for publicar no pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"  # Certifique-se de que a versão do SDK do Flutter esteja correta
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.9.0  # Versão estável mais recente
+  firebase_auth: ^5.3.4  # Versão estável mais recente
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Se você tiver assets, pode adicionar como exemplo abaixo:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+
+  # Fontes personalizadas, se necessário:
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Bold.ttf
+        - asset: assets/fonts/Roboto-Italic.ttf
+        - asset: assets/fonts/Roboto-Medium.ttf
+        - asset: assets/fonts/Roboto-Thin.ttf
+          style: italic
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Bold.ttf
+        - asset: assets/fonts/Roboto-Italic.ttf
+        - asset: assets/fonts/Roboto-Medium.ttf
+        - asset: assets/fonts/Roboto-Thin.ttf
+          weight: 400
